@@ -26,32 +26,47 @@ body {
     margin: 0px
 }
 header {
-    background-image: linear-gradient(var(--cor1), var(--cor2), var(--cor3));
-    padding: 10px;
-    margin: 0px;
+    background-image: linear-gradient(var(--cor1), var(--cor3));
+    height: 150px;
+    padding-top: 40px;
+    padding-bottom: 45px;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
+    text-align: center;
 }
 header > h1 {
-    text-align: center;
     font-family: var(--font-destaque);
     font-weight: normal;
-    margin: 20px;
+    margin-top: 20px;
+    font-size: 3em;
     text-shadow: 2px 1px 6px black;
 }
 header > p {
-    text-align: center;
     text-shadow: 2px 1px 6px black;
-    margin: 35px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+nav {
+    background-color: var(--cor3);
+    padding-bottom: 9px;
+    box-shadow: -1px 6px 5px 0px rgba(0, 0, 0, 0.384);
 }
 nav > a {
     color: white;
     text-decoration: none;
-    font-weight:bold; 
-    margin: 15px;
+    font-weight:bold;
+    padding: 10px;
+    transition-duration: 0.5s;
 }
 nav > a:hover {
-    background-color: #1E8A52;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 main {
     min-width: 300px;
@@ -98,10 +113,12 @@ img#pequena {
     margin: auto;
 }
 div {
-    text-align: center;
     background-color: var(--cor3);
     padding: 20px;
     margin: 0px;
+}
+iframe {
+    width: 100%;
 }
 aside > p {
     text-indent: 20px;
