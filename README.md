@@ -5,6 +5,6 @@
 ***
 Progresso: 
 - [X] Primeiro módulo
-- [ ] Segundo módulo
+- [X] Segundo módulo
 - [ ] Terceiro módulo
 - [ ] Quarto módulo
