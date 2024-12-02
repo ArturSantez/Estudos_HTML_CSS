@@ -95,7 +95,7 @@ main p {
     line-height: 2em;
 }
 main a {
-    color: var(--cor2);
+    color: var(--cor3);
     text-decoration: none;
     font-weight: bold;
 }
@@ -105,8 +105,11 @@ main a::after {
 main a:hover {
     text-decoration: underline;
 }
+main a:active {
+    color: var(--cor1);
+}
 main strong {
-    color: var(--cor2);
+    color: var(--cor3);
 }
 img {
     width: 100%;
