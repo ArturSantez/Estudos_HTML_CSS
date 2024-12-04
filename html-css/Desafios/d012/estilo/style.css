@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+:root {
+    --co1: #F8AFB6; 
+    --co2: #000000; 
+    --co3: #F5F5F5;
+
+    --font-destaque: 'Notable';
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-cordel: 'Bad Script'; 
+}
+
+body {
+    margin: 0px;
+    background-color: var(--co3);
+}
+header {
+    background-color: var(--co1);
+    text-align: center;
+    padding: 30px 10px 0px 10px;
+    min-height: 150px;
+}
+header h1 {
+    font-family: var(--font-destaque);
+    margin-bottom: 20px;
+}
+header p {
+    font-family: var(--font-padrao);
+    margin-top: 10px;
+}
+ a {
+    color: var(--co2);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+.normal {
+    padding: 63.2px 0px 62.2px 30px;
+    font-family: var(--font-cordel);
+    font-weight: bolder;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--co1);
+}
+footer p {
+    font-family: var(--font-padrao);
+    margin: 0px;
+}
