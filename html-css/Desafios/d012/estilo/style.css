@@ -11,16 +11,18 @@
     --cor4: #737373;
     --cor5: #595959;
 
-    --font-destaque: 'Notable', sans-serif;
     --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'Notable', sans-serif;
     --font-cordel: 'Bad Script'; 
 }
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 html, body {
+    font-family: var(--font-padrao);
     min-height: 100vh;
     background-color: var(--cor3);
 }
@@ -29,14 +31,13 @@ header {
     background-color: var(--cor1);
     text-align: center;
 }
-header h1 {
+header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font-destaque);
-    margin-bottom: 15px;
+    font-size: 8vw;
 }
-header p {
-    font-family: var(--font-padrao);
+header > p {
     margin-top: 10px;
     padding-bottom: 50px;
 }
@@ -51,15 +52,15 @@ a:hover {
 }
 
 section {
+    font-family: var(--font-cordel);
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
-    font-family: var(--font-cordel);
+    padding-left: 40px;
     font-weight: bolder;
+    font-size: 3.5vw;
     line-height: 3em;
 }
 section.normal {
-    font-family: var(--font-cordel);
     background-color: var(--cor3);
     color: var(--cor2);
 }
@@ -68,12 +69,13 @@ section.imagem {
     color: var(--cor3);
 }
 section.imagem > p {
-    width: 400px;
     background-color: var(--cor5);
+    width: 50vw;
+    padding-left: 10px;
 }
+
 footer {
     background-color: var(--cor1);
-    font-family: var(--font-padrao);
     text-align: center; 
     margin-top: 60px;
     padding: 10px;
