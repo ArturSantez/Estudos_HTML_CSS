@@ -9,7 +9,7 @@
     --co2: #000000; 
     --co3: #F5F5F5;
 
-    --font-destaque: 'Notable';
+    --font-destaque: 'Notable', sans-serif;
     --font-padrao: Arial, Helvetica, sans-serif;
     --font-cordel: 'Bad Script'; 
 }
