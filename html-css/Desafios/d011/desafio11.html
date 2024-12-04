@@ -6,12 +6,18 @@
     <title>Desafio 11</title>
     <style>
         body {
-            background-image: url("imagens/espaco.jpg");
-            background-position: center;
+            background: black url('imagens/espaco.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
-        img {    
+        img {  
+            min-height: 200px;
+            max-height: 600px; 
             display: block;
-            margin: auto;
+            height: 75vh;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
         }
     </style>
 </head>
