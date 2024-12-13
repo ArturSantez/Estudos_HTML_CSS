@@ -55,10 +55,11 @@ span#burguer {
 span#burguer:hover {
     background-color: var(--cor4);
     color: var(--cor1);
+    transition-duration: .3s;
 }
 nav a {
-    background-color: var(--cor4);
-    color: var(--cor1);
+    background-color: var(--cor1);
+    color: var(--cor4);
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -67,8 +68,9 @@ nav a {
     border-top: 2px solid var(--cor2);
 }
 nav a:hover {
-    background-color: var(--cor2);
-    color: var(--cor4);
+    background-color: var(--cor4);
+    color: var(--cor1);
+    transition-duration: .3s;
 }
 
 main {
